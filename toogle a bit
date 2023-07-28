@@ -1,0 +1,29 @@
+//toogle means 1 is made 0 and 0 is made 1 in a particular position
+
+
+
+
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    int i;
+    cin>>i;
+
+    
+
+    int res=0;
+
+    ///this is x-or operator
+    
+    res=n ^ 1<<i;
+
+    cout<<res<<endl;
+
+
+    return 0;
+}
