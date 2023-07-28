@@ -1,0 +1,26 @@
+///making a bit set which is unset
+
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    
+    cin>>n;
+    
+    int i;
+    
+    cin>>i;
+
+    //this is left shift operator
+
+    int res=1<<i; 
+
+    n=n|res;
+
+    cout<<n<<endl;
+
+    return 0;
+}
