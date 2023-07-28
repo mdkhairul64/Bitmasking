@@ -1,0 +1,27 @@
+///whether a bit in a particular position is set or not
+
+#include<bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+    /
+
+
+    int n;
+    cin>>n;
+    int i;
+    cin>>i;
+
+    int res=1<<i; //this is left shift
+
+    if(n&res)
+    {
+        cout<<"set"<<endl;
+    }
+    else {
+        cout<<"NOt set"<<endl;
+    }
+    return 0;
+
+}
