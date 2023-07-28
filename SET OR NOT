@@ -1,19 +1,20 @@
 ///whether a bit in a particular position is set or not
 
+
 #include<bits/stdc++.h>
 
 using namespace std;
+
 int main()
 {
-    /
-
-
     int n;
     cin>>n;
     int i;
     cin>>i;
 
-    int res=1<<i; //this is left shift
+    //this is left shift operator
+
+    int res=1<<i; 
 
     if(n&res)
     {
@@ -22,6 +23,6 @@ int main()
     else {
         cout<<"NOt set"<<endl;
     }
+    
     return 0;
-
 }
